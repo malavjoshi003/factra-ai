@@ -1,0 +1,33 @@
+# Development tool files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Environment files — keep API keys out of Git
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Generated builds
+dist/
+.next/
+
+# Python environments and generated files
+.venv/
+.venv-whisper/
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
